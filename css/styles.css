@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 36px;
+  text-align: center;
 }
 
 h3 {
@@ -37,6 +38,13 @@ ul {
   color: #2e2f42;
   text-decoration: none;
   text-transform: uppercase;
+}
+.header-nav-li:hover {
+  color: #404bbf;
+}
+.header-nav-li:active {
+  color: #404bbf;
+  text-decoration: underline;
 }
 .header-web {
   color: #4d5ae5;
@@ -59,6 +67,9 @@ ul {
   line-height: 24px;
   letter-spacing: 2%;
 }
+.header-nav-address:hover {
+  color: #404bbf;
+}
 .section-one {
   background-color: #2e2f42;
   color: #ffffff;
@@ -76,4 +87,11 @@ ul {
 .button:hover {
   background-color: #404bbf;
   color: #ffffff;
+}
+.advantages {
+  color: #434455;
+  font-weight: regular;
+}
+.h-advantages {
+  visibility: hidden;
 }
