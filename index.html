@@ -4,30 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- header -->
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="header-nav" href="./index.html"
+          ><span class="header-web">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a class="header-nav-li" href="">Studio</a></li>
+          <li><a class="header-nav-li" href="">Portfolio</a></li>
+          <li><a class="header-nav-li" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="header-nav-address" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-nav-address" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <!-- main -->
     <main>
-      <section>
+      <section class="section-one">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="button" type="button">Order Service</button>
       </section>
       <!-- Друга секція -->
       <section>
@@ -107,6 +122,56 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="" width="264" height="260" alt="Banking App" />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src=""
+              width="264"
+              height="260"
+              alt="Cashless Payment Marketing"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="" width="264" height="260" alt="Meditation App" />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="" width="264" height="260" alt="Taxi Service Marketing" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src=""
+              width="264"
+              height="260"
+              alt="Screen Illustrations Design"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src=""
+              width="264"
+              height="260"
+              alt="Online Courses Marketing"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
         </ul>
       </section>
