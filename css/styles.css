@@ -71,7 +71,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-address-mail {
+.header-address-mp {
   color: #434455;
   text-decoration: none;
   font-weight: regular;
@@ -79,20 +79,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 2%;
 }
-.header-address-ph {
-  color: #434455;
-  text-decoration: none;
-  font-weight: regular;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 2%;
-}
-.header-address-mail:hover,
-.header-address-mail:focus {
-  color: #404bbf;
-}
-.header-address-ph:focus,
-.header-address-ph:hover {
+.header-address-mp:hover,
+.header-address-mp:focus {
   color: #404bbf;
 }
 .section-hero {
