@@ -57,7 +57,7 @@ ul {
   text-decoration: underline;
 }
 .header-li {
-  color: #2e2f42;
+  color: #434455;
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -172,6 +172,9 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.li-portfolio {
+  background-color: #ffffff;
 }
 .hh-our-portfolio {
   font-weight: 500;
