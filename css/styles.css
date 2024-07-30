@@ -35,10 +35,10 @@ ul {
   list-style-type: none;
 }
 .header-logo {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
@@ -48,23 +48,30 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
-.header-nav-li:hover {
+.header-li:hover,
+.header-li:focus {
   color: #404bbf;
 }
-.header-nav-li:active {
+.header-li:active {
   color: #404bbf;
   text-decoration: underline;
 }
-.header-nav-li {
+.header-li {
   color: #2e2f42;
   text-decoration: none;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
-
-.header-nav-address {
+.header-address {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-address-mail {
   color: #2e2f42;
   text-decoration: none;
   font-weight: regular;
@@ -72,8 +79,20 @@ ul {
   line-height: 1.5;
   letter-spacing: 2%;
 }
-.header-nav-address:hover,
-.header-nav-address:focus {
+.header-address-ph {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.header-address-mail:hover,
+.header-address-mail:focus {
+  color: #404bbf;
+}
+.header-address-ph:focus,
+.header-address-ph:hover {
   color: #404bbf;
 }
 .section-hero {
@@ -85,22 +104,89 @@ ul {
   letter-spacing: 2%;
   text-align: center;
 }
+.h-hero {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
 .button {
   background-color: #4d5ae5;
   color: #ffffff;
   text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
-  color: #ffffff;
+}
+.hh-advantages {
+  font-weight: 500;
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .advantages {
   color: #434455;
-  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .h-advantages {
   visibility: hidden;
 }
+.our-team {
+  background-color: #f4f4fd;
+}
+.h-our-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.our-team-item {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.our-team-item-p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.h-our-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.hh-our-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.p-our-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .footer-logo {
   font-weight: bold;
   font-size: 18px;
@@ -114,4 +200,12 @@ ul {
 .footer-logo-span {
   color: #2e2f42;
   text-decoration: none;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.p-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
