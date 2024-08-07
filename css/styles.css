@@ -70,10 +70,11 @@ h3 {
 }
 .header-ul {
   display: flex;
-  padding: 24px 0;
+
   gap: 40px;
 }
 .header-li {
+  padding: 24px 0;
 }
 .header-li-a:hover,
 .header-li-a:focus {
