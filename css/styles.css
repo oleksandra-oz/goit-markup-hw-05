@@ -268,7 +268,7 @@ h3 {
   row-gap: 48px;
 }
 .container-li-portfolio {
-  padding: 32px 16px;
+  padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
