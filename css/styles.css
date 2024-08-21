@@ -64,7 +64,8 @@ h3 {
   align-items: center;
 
   /* padding-top: 24px; */
-  margin-right: 76px;
+  /* margin-right: 76px; */
+  margin-right: auto;
 }
 .header-logo-span {
   color: #2e2f42;
