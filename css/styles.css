@@ -100,7 +100,8 @@ h3 {
 .header-li-a {
   padding-top: 24px;
   padding-bottom: 24px;
-  color: #2e2f42;
+  /* color: #2e2f42; */
+
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -108,6 +109,7 @@ h3 {
   letter-spacing: 0.02em;
   display: block;
   position: relative;
+  color: #404bbf;
   text-align: none;
 }
 .headear-li-a-pseudo {
@@ -133,7 +135,7 @@ h3 {
   width: 100%;
   border-radius: 2px;
   height: 4px;
-  background: #404bbf;
+  color: #404bbf;
 }
 
 .header-address {
@@ -469,6 +471,7 @@ h3 {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  z-index: 1000;
 }
 .p-footer {
   line-height: 1.5;
