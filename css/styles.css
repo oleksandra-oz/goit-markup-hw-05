@@ -85,6 +85,7 @@ h3 {
 }
 .header-li {
   padding: 24px 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 */ .header-li-a:hover,
@@ -111,6 +112,7 @@ h3 {
   position: relative;
   color: #404bbf;
   text-align: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .headear-li-a-pseudo {
   position: relative;
@@ -161,7 +163,9 @@ h3 {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-address-mp:hover,
 .header-address-mp:focus {
   color: #404bbf;
