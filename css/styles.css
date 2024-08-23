@@ -466,13 +466,15 @@ border-radius: 50%;
   color: #434455;
 }
 .footer-container {
-  /* display: inline-block; */
+  
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 120px;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
