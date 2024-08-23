@@ -112,12 +112,12 @@ h3 {
   position: relative;
   /* color: #404bbf; */
   text-align: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .headear-li-a-pseudo {
   position: relative;
   color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-li-a.headear-li-a-pseudo::after {
   content: "";
