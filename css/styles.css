@@ -309,10 +309,12 @@ h3 {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .our-team-item-wrap-a {
-  border-radius: 50%;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
@@ -341,6 +343,9 @@ h3 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-linksx:hover .our-team-item-wrap {
+  background-color: #404bbf;
+}
+.social-linksx:focus .our-team-item-wrap {
   background-color: #404bbf;
 }
 .our-team-item-p {
@@ -378,6 +383,7 @@ h3 {
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
+  fill: #f4f4fd;
 }
 .icon-social-media-footer {
   fill: #ffffff;
