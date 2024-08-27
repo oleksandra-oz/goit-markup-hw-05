@@ -313,6 +313,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-item-wrap-a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -510,13 +511,16 @@ h3 {
 }
 .p-footer {
   line-height: 1.5;
-  color: #f4f4fd;
+  color: #ffffff;
   letter-spacing: 0.02em;
   max-width: 264px;
   align-items: center;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 .footer-container-one {
   max-height: 264px;
+  margin-right: 120px;
 }
 .footer-container-two {
   display: flex;
@@ -527,8 +531,10 @@ h3 {
 }
 .social-links {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 16px;
 }
-.social-links:hover .our-team-item-wrap-a {
+.social-links:hover,
+.social-links:focus .our-team-item-wrap-a {
   background-color: #31d0aa;
 }
 .pp-footer {
