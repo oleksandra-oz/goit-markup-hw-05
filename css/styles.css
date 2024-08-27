@@ -372,6 +372,9 @@ h3 {
 .li-our-team:hover .our-team-item-wrap-a {
   background-color: #404bbf;
 }
+.li-our-team:focus .our-team-item-wrap-a {
+  background-color: #404bbf;
+}
 
 .our-team-name-position {
   padding: 32px 0;
