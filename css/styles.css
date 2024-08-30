@@ -512,6 +512,7 @@ h3 {
 }
 .footer-container-two {
   max-height: 264px;
+  margin-right: 80px;
 }
 .social-links {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -833,6 +834,7 @@ h3 {
   border: none;
   display: block;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 /* #endregion modal */
 h1,
