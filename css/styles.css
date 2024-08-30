@@ -608,12 +608,15 @@ h3 {
   color: #fff;
   border: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
 }
 .iconsend {
   fill: #fff;
   width: 24px;
   height: 24px;
+  margin-left: 16px;
   /* display: block; */
   /* position: absolute;
   top: 50%;
